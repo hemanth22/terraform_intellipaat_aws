@@ -2,8 +2,8 @@ resource "aws_instance" "prod" {
   key_name               = "bitroid"
   ami                    = "ami-01ed306a12b7d1c96"
   instance_type          = "t2.micro"
-  vpc_security_group_ids = ["sg-07e391a00456e93a5"]
-  subnet_id              = "subnet-0548d276647b097c8"
+  vpc_security_group_ids = ["sg-0b7b9514fa90923d0"]
+  subnet_id              = "subnet-0a02044410efcb1a8"
 
   root_block_device {
     volume_size = "8"
